@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML DOCUMENTATION</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>HTML Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Hyper_Text_Markup_Language">Hyper Text Markup Language</a></li>
+            <li><a class="nav-link" href="#A_Simple_Html_Document">A Simple Html Document</a></li>
+            <li><a class="nav-link" href="#The_DOCTYPE_Declaration">The DOCTYPE Declaration</a></li>
+            <li><a class="nav-link" href="#HTML_Headings">HTML Headings</a></li>
+            <li><a class="nav-link" href="#HTML_Paragraphs">HTML Paragraphs</a></li>
+            <li><a class="nav-link" href="#HTML_Links">HTML Links</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Hyper_Text_Markup_Language">
+            <header>Hyper Text Markup Language</header>
+            <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and
+                structure of web content. Other technologies besides HTML are generally used to describe a web page's
+                appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+            <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or
+                between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and
+                linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+            <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup
+                includes special "elements" such as header, footer, code, article, section, div and many others.</p>
+            <p>An HTML element is set off from other text in a document by "tags", which consist of the element name
+                surrounded by ' and '. The name of an element inside a tag is case-insensitive. That is, it can be
+                written in uppercase, lowercase, or a mixture. For example, the 'title' tag can be written as 'Title',
+                'TITLE', or in any other way. However, the convention and recommended practice is to write tags in
+                lowercase.</p>
+        </section>
+        <section class="main-section" id="A_Simple_Html_Document">
+            <header>A Simple Html Document</header>
+            <article>
+                <p>Example</p>
+                <pre><code>
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    &lt;head&gt;
+                        &lt;meta charset="UTF-8"&gt;
+                        &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+                        &lt;title&gt;Document&lt;/title&gt;
+                    &lt;/head&gt;
+                    &lt;body&gt;
+                        
+                    &lt;/body&gt;
+                    &lt;/html&gt;
+                </code></pre>
+            </article>
+            <div>
+                <header>Example Explained: </header>
+                <ul>
+                    <li>The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document</li>
+                    <li>The &lt;html&gt; element is the root element of an HTML page</li>
+                    <li>The &lt;head&gt; element contains meta information about the HTML page</li>
+                    <li>The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's
+                        title bar or in the page's tab)</li>
+                    <li>The &lt;body&gt; element defines the document's body, and is a container for all the visible
+                        contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+                    <li>The &lt;h1&gt; element defines a large heading</li>
+                    <li>The &lt;p&gt; element defines a paragraph</li>
+                </ul>
+            </div>
+        </section>
+        <section class="main-section" id="The_DOCTYPE_Declaration">
+            <header>The DOCTYPE Declaration</header>
+            <p>The &lt;!DOCTYPE&gt; declaration represents the document type, and helps browsers to display web pages
+                correctly.</p>
+            <p>It must only appear once, at the top of the page (before any HTML tags).</p>
+            <p>The &lt;!DOCTYPE&gt; declaration is not case sensitive.</p>
+            <p>The &lt;!DOCTYPE&gt; declaration for HTML5 is:</p>
+            <article>
+                <code>&lt;!DOCTYPE html&gt;</code>
+            </article>
+        </section>
+        <section class="main-section" id="HTML_Headings">
+            <header>HTML Headings</header>        
+            <p>HTML headings are defined with the &lt;h1&gt; to &lt;h6&gt; tags.</p>
+            <p>&lt;h1&gt; defines the most important heading. &lt;h6&gt; defines the least important heading:</p>
+            <article>
+                <p>Example</p>
+                <pre><code>
+                    &lt;h1&gt;This is heading &lt;/h1&gt;
+                    &lt;h2&gt;This is heading &lt;/h2&gt;
+                    &lt;h3&gt;This is heading &lt;/h3&gt;
+                </code></pre>
+            </article>
+        </section>
+        <section class="main-section" id="HTML_Paragraphs">
+            <header>HTML Paragraphs</header>
+            <p>HTML paragraphs are defined with the &lt;p&gt; tag:</p>
+            <article>
+                <pre><code>
+                    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+                    &lt;p&gt;This is another paragraph.&lt;/p&gt;
+                </code></pre>
+            </article>
+        </section>
+        <section class="main-section" id="HTML_Links">
+            <header>HTML Links</header>
+            <p>HTML links are defined with the &lt;a&gt; tag:</p>
+            <article>
+                <p>Example</p>
+                <pre><code>&lt;a href="https://www.google.com"&gt;This is a link&lt;/a&gt;</code></pre>
+            </article>
+        </section>
+    </main>
+</body>
+
+</html>
